@@ -1,0 +1,77 @@
+{
+	"id": "8c61fd8d-55fb-3588-075c-37991ef877f8",
+	"name": "Book Author",
+	"description": "Book author postman collection",
+	"order": [
+		"a6564b03-fdd7-e105-8745-a7a9e3f0eb5e",
+		"1ddb6a61-3c68-3bd0-2eef-cdbb6931f9a5"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1645798393083,
+	"owner": "4917096",
+	"public": false,
+	"requests": [
+		{
+			"id": "1ddb6a61-3c68-3bd0-2eef-cdbb6931f9a5",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYW15YSIsImV4cCI6MTY0NTg0MTU2NywiaWF0IjoxNjQ1Nzk4MzY3fQ.mtVvPuhekZS0GPiURjM-YmF8dPdX1gXsFyQPz88_k_A\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYW15YSIsImV4cCI6MTY0NTg0MTU2NywiaWF0IjoxNjQ1Nzk4MzY3fQ.mtVvPuhekZS0GPiURjM-YmF8dPdX1gXsFyQPz88_k_A",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/book/ramya",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8c61fd8d-55fb-3588-075c-37991ef877f8",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8080/book/ramya",
+			"description": "Get Book",
+			"descriptionFormat": "html",
+			"time": 1645798433859,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a6564b03-fdd7-e105-8745-a7a9e3f0eb5e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8c61fd8d-55fb-3588-075c-37991ef877f8",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/login",
+			"description": "Login",
+			"descriptionFormat": "html",
+			"time": 1645798415729,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"userName\" : \"ramya\",\n\t\"password\" : \"ramya1\"\n}"
+		}
+	]
+}
